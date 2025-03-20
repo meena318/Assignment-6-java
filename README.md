@@ -1,12 +1,28 @@
-# Assignment-6-java
+# Assignment-7-java
 
 
-Develop Java programs using lambda expressions and stream operations for sorting, filtering, and processing large datasets efficiently.
+Create Java applications with JDBC for database connectivity, CRUD operations, and MVC architecture.
+
 
 Easy Level:
-Write a program to sort a list of Employee objects (name, age, salary) using lambda expressions.
+Problem Statement:
+Create a Java program to connect to a MySQL database and fetch data from a single table. The program should:
+Use DriverManager and Connection objects.
+Retrieve and display all records from a table named Employee with columns EmpID, Name, and Salary.
+
 Medium Level:
-Create a program to use lambda expressions and stream operations to filter students scoring above 75%, sort them by marks, and display their names.
+Problem Statement:
+Build a program to perform CRUD operations (Create, Read, Update, Delete) on a database table Product with columns:
+ProductID, ProductName, Price, and Quantity.
+The program should include:
+Menu-driven options for each operation.
+Transaction handling to ensure data integrity.
+
 Hard Level:
-Write a Java program to process a large dataset of products using streams. Perform operations such as grouping products by category, finding the most expensive product in each category, and calculating the average price of all products.
+Problem Statement:
+Develop a Java application using JDBC and MVC architecture to manage student data. The application should:
+Use a Student class as the model with fields like StudentID, Name, Department, and Marks.
+Include a database table to store student data.
+Allow the user to perform CRUD operations through a simple menu-driven view.
+Implement database operations in a separate controller class.
 
